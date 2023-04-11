@@ -1,6 +1,5 @@
 *{
     margin: 0px;
-    padding: 0px;
 }
 .part1{
     display: flex;
@@ -8,7 +7,7 @@
 .fullproject .part1 .leftside {
     background-color: white;
     width: 57%;
-    height: 500px;
+    height: 529px;
 
 }
 .fullproject .part1 .rightside{
@@ -39,7 +38,9 @@
     background-color: white;
 
 }
-
+.leftside .logologin .login .button1 button:hover{
+color: #fc8019;
+}
 .logologin .login .button1 button{
     border: none;
     margin-right: 10px;
@@ -54,7 +55,6 @@
 }
 .logologin .login .button2 button{
     border: none;
-    margin-right: 20px;
     margin-top: 3px;
     height: 41px;
     width: 110px;
@@ -230,11 +230,13 @@ h4{
     margin-bottom: 25px;
 }
 .apple{ 
+    border-radius: 12px;
     margin-top: 80px;
     margin-left: 225px;
     background-color: white;
 }
 .playstore{
+        border-radius: 12px;
     margin-top: 40px;
     margin-left: 225px;
     background-color: white;
